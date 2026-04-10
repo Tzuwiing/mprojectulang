@@ -1,6 +1,7 @@
+import 'package:animated_splash_screen/animated_splash_screen.dart';
 import 'package:flutter/material.dart';
-import 'package:animated_splash_screen/animated_splash_screen.dart'; // Import package ini
-import 'package:flutter_ulang/tugasmrjh.dart';
+// Import package ini
+import 'package:flutter_ulang/project9apr.dart';
 
 void main() {
   runApp(const MyApp());
@@ -19,13 +20,15 @@ class MyApp extends StatelessWidget {
       ),
 
       home: AnimatedSplashScreen(
-        splash: const Icon(Icons.flutter_dash, color: Colors.deepPurple, size: 80),
+        splash: const Icon(
+          Icons.flutter_dash,
+          color: Colors.deepPurple,
+          size: 80,
+        ),
 
-        nextScreen: const Tugasmrjh(),
+        nextScreen: const Project9(),
 
         splashTransition: SplashTransition.fadeTransition,
-
-      
 
         duration: 3000,
       ),

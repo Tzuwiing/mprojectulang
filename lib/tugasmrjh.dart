@@ -117,63 +117,63 @@ class _TugasmrjhState extends State<Tugasmrjh> {
               ),
             ],
           ),
-          SizedBox(height: 16),
-          Row(
-            mainAxisAlignment: MainAxisAlignment.center,
-            children: [
-              Container(
-                width: 250,
-                height: 200,
-                decoration: BoxDecoration(
-                  color: Colors.purpleAccent,
-                  borderRadius: BorderRadius.only(topLeft: Radius.circular(16)),
-                ),
-
-                child: const Center(
-                  child: Text(
-                    'Bagian 2',
-                    style: TextStyle(fontSize: 18, color: Colors.white),
+            SizedBox(height: 16),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                Container(
+                  width: 250,
+                  height: 200,
+                  decoration: BoxDecoration(
+                    color: Colors.purpleAccent,
+                    borderRadius: BorderRadius.only(topLeft: Radius.circular(16)),
                   ),
+
+                  child: const Center(
+                    child: Text(
+                      'Bagian 2',
+                      style: TextStyle(fontSize: 18, color: Colors.white),
+                    ),
+                  ),
+                ),
+                Container(
+                  width: 250,
+                  height: 200,
+                  decoration: BoxDecoration(
+                    color: Colors.pinkAccent,
+                    borderRadius: BorderRadius.only(
+                      topRight: Radius.circular(16),
+                    ),
+                  ),
+                  child: const Center(
+                    child: Text(
+                      'bagian 2',
+                      style: TextStyle(fontSize: 18, color: Colors.white),
+                    ),
+                  ),
+                ),
+              ],
+            ),
+            Container(
+              width: 500,
+              height: 200,
+
+              decoration: BoxDecoration(
+                color: Colors.redAccent,
+                borderRadius: BorderRadius.only(
+                  bottomLeft: Radius.circular(16),
+                  bottomRight: Radius.circular(16),
                 ),
               ),
-              Container(
-                width: 250,
-                height: 200,
-                decoration: BoxDecoration(
-                  color: Colors.pinkAccent,
-                  borderRadius: BorderRadius.only(
-                    topRight: Radius.circular(16),
-                  ),
+              child: const Center(
+                child: Text(
+                  'Bagian 3',
+                  style: TextStyle(fontSize: 18, color: Colors.white),
                 ),
-                child: const Center(
-                  child: Text(
-                    'bagian 2',
-                    style: TextStyle(fontSize: 18, color: Colors.white),
-                  ),
-                ),
-              ),
-            ],
-          ),
-          Container(
-            width: 500,
-            height: 200,
-
-            decoration: BoxDecoration(
-              color: Colors.redAccent,
-              borderRadius: BorderRadius.only(
-                bottomLeft: Radius.circular(16),
-                bottomRight: Radius.circular(16),
               ),
             ),
-            child: const Center(
-              child: Text(
-                'Bagian 3',
-                style: TextStyle(fontSize: 18, color: Colors.white),
-              ),
-            ),
-          ),
-        ],
-      ),
-    );
+          ],
+        ),
+      );
+    }
   }
-}
